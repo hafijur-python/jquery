@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>exam2</title>
+      <link rel="stylesheet" type="text/css" href="jquery1.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="" type="text/javascript"></script>
+        <script>
+    $(document).ready(function() {
+        
+        $('button').click(function(){
+            $(".first").addClass("armen")
+        });
+        $('button').click(function(){
+            $(".second").slideToggle("armen")
+        });
+        $('button').click(function(){
+            $(".third").data("src","hello i am sending some data")
+        });
+    
+    });
+</script> 
+        
+   </head>
+   <body>
+    <div class="wrapper">
+        <div id="main">
+            <div id="header"><p>this is a header</p></div>
+            <div class="first">
+                <h1>add class</h1>
+                <p>click the button to add the class red to this paragraph </p>
+                <button>
+                    click me
+                </button>
+            </div>
+            
+            <div class="second">
+                    <h1>SlideToggle</h1>
+                    <p>click the button to add the class red to this paragraph </p>
+                    <button>
+                        click me
+                    </button>
+            </div>
+           
+            <div class="third">
+                <h1>add class</h1>
+                <p>click the button to add the class red to this paragraph </p>
+                <button>
+                    click me
+                </button>
+                </div>
+        </div>
+        <div id="footer"><p>this is a footer</p></div>
+    </div>  
+    </body>
+   </html>

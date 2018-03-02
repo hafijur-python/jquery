@@ -1,0 +1,33 @@
+.wrapper{
+    width: 1000px;
+    height: 842px;
+    background-color: blue;
+}
+#header{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(175, 207, 160);
+}
+#main{
+    text-align: center;
+}
+.first{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(201, 201, 226);
+}
+.second{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(201, 201, 226);
+}
+.third{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(201, 201, 226);
+}
+#footer{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(41, 10, 100);
+}
